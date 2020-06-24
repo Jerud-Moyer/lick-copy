@@ -1,0 +1,95 @@
+
+body {
+    /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
+    --color1: hsla(349, 69%, 76%, 1);
+    --color2: hsla(207, 67%, 44%, 1);
+    --color3: hsla(200, 61%, 56%, 1);
+    --color4: hsla(187, 41%, 94%, 1);
+    --color5: hsla(170, 28%, 95%, 1);
+
+    /* --color1: hsla(45, 86%, 83%, 1);
+    --color2: hsla(135, 65%, 98%, 1);
+    --color3: hsla(315, 37%, 86%, 1);
+    --color4: hsla(45, 73%, 98%, 1);
+    --color5: hsla(224, 40%, 79%, 1); */
+    
+    --header-height: 80px;
+    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+    --gutter: 30px;
+    --footer-height: 25px;
+    
+    @font-face {
+        font-family: merriweather;
+        src: <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    }
+    font-family: 'Titillium Web', sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategray;
+    color: whitesmoke;
+    height 50px;
+    padding: 12px;
+}
+
+.sub-header {
+    height: 95px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    color: darkslategray;
+    border-bottom: darkslategray dashed 1px;
+
+
+
+}
+
+.lick {
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 10px, 200px;
+    margin: 0pt, 100px;
+    font-family: merriweather;
+    
+}
+
+.side {
+    border: darkslategray 1px;
+
+
+
+}
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+.left {
+    height: 500px;
+    width: 500px;
+    background-color: darkslategray;
+    margin: 100px, 0;
+    align-items: baseline;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+
+}
